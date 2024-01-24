@@ -1,0 +1,17 @@
+num1, num2 = int(input()), int(input())
+
+operation = input()
+
+if operation == '+':
+    print(num1 + num2)
+elif operation == '-':
+    print(num1 - num2)
+elif operation == '*':
+    print(num1 * num2)
+elif operation == '/':
+    if num2 == 0:
+        print('fail')
+    else:
+        print(num1 / num2)
+else:
+    print('error')
